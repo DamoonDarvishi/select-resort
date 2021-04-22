@@ -1,0 +1,135 @@
+/* app */
+.brand-color {
+  color: #59b3e4;
+}
+
+/* App Price */
+.app-price {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../img/app/prices.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.app-price h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.app-price p {
+  color: #fff;
+}
+
+.app-price .app-price-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.app-price .app-price-btn:hover {
+  background: #47b2e4;
+  border: 2px solid #47b2e4;
+}
+.app-price .box {
+  background-color: #fff;
+}
+.app-price .box h3 {
+  background-color: #e4e4e4;
+  padding: 15px 30px;
+  font-size: 14px;
+  color: #000000;
+}
+.app-price .box h4 {
+  padding: 6px 30px;
+  font-size: 28px;
+}
+.app-price .box ul {
+  line-height: 3.2;
+}
+.app-price .box ul li {
+  list-style-type: none;
+}
+
+.app-price .box .btn-start-plan a {
+  border-radius: 50px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.app-price .box .btn-start-plan a:hover {
+  background-color: #47b2e4;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .app-price {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .app-price .app-price-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.features .section-body .column {
+  display: inherit;
+}
+.features .section-body .column .media-left {
+  padding-right: 10px;
+}
+
+.features .section-body .column .media-left .icon {
+  color: #59b3e4;
+}
+
+.features .link-app-dl {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.features .link-app-dl .apple-app {
+  width: 170px;
+}
+
+.features .link-app-dl .android-app {
+  width: 190px;
+}
+
+.features .link-app-dl img {
+  width: 100%;
+}
+
+.btn-color {
+  color: black;
+}
+
+@media (max-width: 420px) {
+  .feature-img {
+    width: 100%;
+  }
+  .features .link-app-dl .apple-app {
+    width: 120px;
+  }
+
+  .features .link-app-dl .android-app {
+    width: 134px;
+  }
+}
